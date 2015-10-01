@@ -1,0 +1,44 @@
+Dijkstra's algorithm solves the single-source shortest path problem.
+Bellman–Ford algorithm solves the single-source problem if edge weights may be negative.
+A* search algorithm solves for single pair shortest path using heuristics to try to speed up the search.
+Floyd–Warshall algorithm solves all pairs shortest paths.
+Johnson's algorithm solves all pairs shortest paths, and may be faster than Floyd–Warshall on sparse graphs.
+Viterbi algorithm solves the shortest stochastic path problem with an additional probabilistic weight on each node.
+
+f(x) = O(g(x)) (big-oh) means that the growth rate of f(x) is asymptotically less than or equal to to the growth rate of g(x).
+
+f(x) = Ω(g(x)) (big-omega) means that the growth rate of f(x) is asymptotically greater than or equal to the growth rate of g(x)
+
+f(x) = o(g(x)) (small-oh) means that the growth rate of f(x) is asymptotically less than the growth rate of g(x).
+
+f(x) = ω(g(x)) (small-omega) means that the growth rate of f(x) is asymptotically greater than the growth rate of g(x)
+
+f(x) = Θ(g(x)) (theta) means that the growth rate of f(x) is asymptotically equal to the growth rate of g(x)
+
+Polynomial vs. nondeterministic polynomial
+NP-hard
+NP-complete
+P (time required to solve is non-negative integer)
+
+Longest path
+NP
+
+Dijkstra
+O(|E|+|V|log|V|) - greedily selects (locally optimal choices)
+
+Bellman-Ford
+O (|V||E|) - can be applied to negative
+
+A*
+O(|E|) = O(b^d)
+
+Floyd-Warshall
+O(|V|^3) - shortest path in directed graph
+
+Traveling Salesman
+Greedy algorithm - NP-complete
+
+Knapsack
+O(W)
+NP-complete
+
